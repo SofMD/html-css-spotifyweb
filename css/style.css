@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+/* UTILITY */
+.vw {
+    width: 100vw;
+}
+
+/* BODY */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: burlywood;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #282828;
+}
