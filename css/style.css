@@ -14,17 +14,24 @@
 /* BODY */
 body {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 /* MAIN */
 main {
-    display: flex;
-    flex-grow: 1;
+    height: calc(100% - 90px);
     background-color: royalblue;
 }
 
+main .aside-bar {
+    background-color: salmon;
+    width: 250px;
+    flex-shrink: 0;
+}
+
+main .main-content {
+    background-color: sandybrown;
+    overflow-y: scroll;
+}
 
 
 
@@ -35,4 +42,5 @@ main {
 /* FOOTER */
 footer {
     background-color: #282828;
+    height: 90px;
 }
