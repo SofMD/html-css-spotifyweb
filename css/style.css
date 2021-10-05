@@ -6,13 +6,33 @@
     color: white;
 }
 /* UTILITY */
+
 .w100 {
     width: 100%;
 }
-.hvh {
-    height: 100vh;
-}
 
 /* BODY */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 /* MAIN */
+main {
+    display: flex;
+    flex-grow: 1;
+    background-color: royalblue;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: #282828;
+}
