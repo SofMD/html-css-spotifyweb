@@ -18,7 +18,8 @@ body {
 
 /* MAIN */
 main {
-    height: calc(100% - 90px);
+    height: calc(100% - 100px);
+    display: flex;
     background-color: royalblue;
 }
 
@@ -42,5 +43,5 @@ main .main-content {
 /* FOOTER */
 footer {
     background-color: #282828;
-    height: 90px;
+    height: 100px;
 }
