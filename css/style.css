@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
+
+a {
+    text-decoration: none;
+}
 /* UTILITY */
 .m-top30 {
     margin-top: 30px;
@@ -21,6 +25,10 @@
     display: flex;
 }
 
+h3 {
+    font-weight: 700;
+}
+
 /* BODY */
 body {
     height: 100vh;
@@ -31,6 +39,7 @@ main {
     height: calc(100% - 100px);
     display: flex;
 }
+
 /* aside-bar */
 main .aside-bar {
     background-color: #000000;
@@ -44,17 +53,24 @@ main .aside-bar .logo {
     width: 80%;
 }
 
-main .aside-nav div {
+main .aside-nav a, .aside-playlist a{
     align-items: center;
 }
 main .aside-nav img {
     width: 15%;
 }
-main .aside-nav span {
-    margin-left: 7px;
+main .aside-nav span, .aside-playlist a h3 {
+    margin-left: 10px;
 }
 main .aside-nav .clr {
     color: #636363;
+}
+
+main .aside-playlist a i {
+    padding: 8px;
+    background-color: #a3a3a3;
+    color: black;
+    font-size: 40px
 }
 
 
