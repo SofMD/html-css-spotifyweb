@@ -33,6 +33,9 @@ h3 {
     font-size: 16px;
     font-weight: 700;
 }
+.m-rg {
+    margin-right: 20px;
+}
 
 /* BODY */
 body {
@@ -81,7 +84,8 @@ main .aside-nav span,
 
 main .aside-nav .clr, 
 main .aside-playlist ul li a, 
-.aside-bottom span {
+.aside-bottom span,
+.main-content .content-menu ul li {
 
     color: #636363;
 }
@@ -139,7 +143,13 @@ main .main-content {
     border-radius: 25px;
 }
 
-
+.content-menu {
+    margin-top: 110px;
+}
+.content-menu ul {
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 
 /* FOOTER */
