@@ -206,6 +206,7 @@ footer {
     align-items: center;
 }
 
+/* player album */
 .player-album .album-image {
     margin-left: 20px;
     width: 50px;
@@ -219,7 +220,18 @@ footer {
 .player-album .player-album-simbol {
     margin-left: 40px;
 }
+
 .player-album .player-album-simbol i {
     font-size: 20px;
+}
 
+/* play-controller */
+.controller-simbol i {
+    margin-right: 40px;
+    font-size: 25px;
+    color: white;
+}
+
+.controller-simbol .bigger{
+    font-size: 40px;
 }
