@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 a {
@@ -20,6 +20,9 @@ a {
 .m-top10 {
     margin-top: 10px;
 }
+.m-rg {
+    margin-right: 20px;
+}
 .f-w600 {
     font-weight: 600;
 }
@@ -33,9 +36,11 @@ h3 {
     font-size: 16px;
     font-weight: 700;
 }
-.m-rg {
-    margin-right: 20px;
+h2{
+    font-size: 30px;
+    font-weight: 800;
 }
+
 
 /* BODY */
 body {
@@ -96,18 +101,18 @@ main .aside-playlist a i {
     color: black;
     font-size: 40px
 }
+
 main .aside-playlist {
     flex-grow: 1;
     margin-bottom: 30px;
 }
-
 
 main .aside-bottom {
     background-color: black;
 }
 
 main .aside-bottom a {
-    padding:0 100px 8px 0;
+    padding:0 60px 8px 0;
     border-bottom: 1px solid #636363;
 }
 
@@ -148,8 +153,31 @@ main .main-content {
 }
 .content-menu ul {
     justify-content: center;
+}
+
+.content-albums {
+    padding: 30px 25px;
+}
+.content-albums .albums-list {
     flex-wrap: wrap;
 }
+.content-albums .albums-list li {
+    margin-right: 15px;
+    margin-bottom: 30px;
+    width: calc(100% / 6 - 15px);
+    height: 40px;
+    background-color: rosybrown;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* FOOTER */
