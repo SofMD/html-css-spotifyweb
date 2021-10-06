@@ -112,8 +112,8 @@ main .aside-nav span,
 main .aside-nav .clr, 
 main .aside-playlist ul li a, 
 .aside-bottom span,
-.main-content .content-menu ul li,
-.content-albums .albums-list div>div {
+.main-content .content-menu ul li a,
+.content-albums .albums-list a>div {
 
     color: #636363;
 }
@@ -200,7 +200,7 @@ main .main-content {
     width: 100%;
 }
 
-.content-albums .albums-list li div h3 {
+.content-albums .albums-list li a h3 {
     font-weight: 800;
     font-size: 20px;
 }
