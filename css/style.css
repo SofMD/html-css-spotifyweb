@@ -5,6 +5,7 @@
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 16px;
+    font-weight: 600;
 }
 
 a {
@@ -23,9 +24,6 @@ a {
 .m-rg {
     margin-right: 20px;
 }
-.f-w600 {
-    font-weight: 600;
-}
 .d-fl {
     display: flex;
 }
@@ -40,7 +38,9 @@ h2{
     font-size: 30px;
     font-weight: 800;
 }
-
+.t-a-c {
+    text-align: center;
+}
 
 /* BODY */
 body {
@@ -90,7 +90,8 @@ main .aside-nav span,
 main .aside-nav .clr, 
 main .aside-playlist ul li a, 
 .aside-bottom span,
-.main-content .content-menu ul li {
+.main-content .content-menu ul li,
+.content-albums .albums-list div>div {
 
     color: #636363;
 }
@@ -133,7 +134,7 @@ main .main-content {
     overflow-y: auto;
     width: calc(100% - 240px);
 }
-
+/* top-bar */
 .content-top-bar {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.4);
@@ -148,30 +149,43 @@ main .main-content {
     border-radius: 25px;
 }
 
+/* content-menu */
 .content-menu {
     margin-top: 110px;
 }
+
 .content-menu ul {
     justify-content: center;
 }
 
+/* content-albums */
 .content-albums {
-    padding: 30px 25px;
+    margin-top: 10px;
+    padding: 30px 25px 0 25px;
 }
+
 .content-albums .albums-list {
     flex-wrap: wrap;
 }
+
 .content-albums .albums-list li {
     margin-right: 15px;
     margin-bottom: 30px;
     width: calc(100% / 6 - 15px);
-    height: 40px;
-    background-color: rosybrown;
 }
 
+.content-albums .albums-list div img {
+    width: 100%;
+}
 
+.content-albums .albums-list li div h3 {
+    font-weight: 800;
+    font-size: 20px;
+}
 
-
+.content-albums .subtitle {
+    color: #636363;
+}
 
 
 
