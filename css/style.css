@@ -41,6 +41,13 @@ h2{
 .t-a-c {
     text-align: center;
 }
+.f-s14 {
+    font-size: 14px;
+}
+
+.al-c {
+    align-self: center;
+}
 
 /* BODY */
 body {
@@ -183,7 +190,7 @@ main .main-content {
     font-size: 20px;
 }
 
-.content-albums .subtitle {
+.subtitle {
     color: #636363;
 }
 
@@ -191,13 +198,28 @@ main .main-content {
     border-radius: 50%;
 }
 
-
-
-
-
-
 /* FOOTER */
 footer {
     background-color: #282828;
     height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-album .album-image {
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.player-album .album-image img {
+    width: 100%;
+}
+
+.player-album .player-album-simbol {
+    margin-left: 40px;
+}
+.player-album .player-album-simbol i {
+    font-size: 20px;
+
 }
