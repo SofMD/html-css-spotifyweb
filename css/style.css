@@ -246,12 +246,17 @@ footer {
     width: 40%;
 }
 
-.controller-simbol i {
+.controller-simbol button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.controller-simbol button i {
     margin-right: 40px;
     font-size: 25px;
     color: white;
 }
-.controller-simbol i:last-child {
+.controller-simbol button:last-child i{
     margin-right: 0;
 }
 
