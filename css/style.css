@@ -51,8 +51,9 @@ main .aside-bar {
     width: 240px;
     flex-shrink: 0;
     padding: 20px 0 0 25px;
-    position: relative;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 main .aside-bar .logo {
@@ -92,11 +93,13 @@ main .aside-playlist a i {
     color: black;
     font-size: 40px
 }
+main .aside-playlist {
+    flex-grow: 1;
+    margin-bottom: 30px;
+}
+
 
 main .aside-bottom {
-    position: absolute;
-    left: 20px;
-    bottom: 10px;
     background-color: black;
 }
 
@@ -124,10 +127,9 @@ main .main-content {
 
 .content-top-bar {
     position: fixed;
-    top: 0;
-    right: 0;
     background-color: black;
     width: calc(100% - 240px);
+    text-align: right;
 }
 
 
