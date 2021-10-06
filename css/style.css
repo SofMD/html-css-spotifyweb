@@ -49,6 +49,24 @@ h2{
     align-self: center;
 }
 
+.bar {
+    margin: 0 30px;
+    width: 100%;
+    height: 5px;
+    background-color: #5a5a5a;
+    border-radius: 25px;
+}
+
+.bar::before {
+    content: '';
+    width: 10%;
+    background-color: #c1c1c1;
+    display: inline-block;
+    height: 5px;
+    position: absolute;
+    border-radius: 25px;
+}
+
 /* BODY */
 body {
     height: 100vh;
@@ -226,12 +244,22 @@ footer {
 }
 
 /* play-controller */
+.player-controller {
+    flex-direction: column;
+    width: 40%;
+}
+
 .controller-simbol i {
     margin-right: 40px;
     font-size: 25px;
     color: white;
 }
+.controller-simbol i:last-child {
+    margin-right: 0;
+}
 
 .controller-simbol .bigger{
     font-size: 40px;
 }
+
+
