@@ -175,7 +175,12 @@ main .main-content {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 10px 50px;
     border-radius: 25px;
+    transition: transform 0.3s;
 }
+
+.content-top-bar button:hover {
+    transform: scale(1.1);
+} 
 
 /* content-menu */
 .content-menu {
@@ -187,6 +192,18 @@ main .main-content {
     flex-wrap: wrap;
 }
 
+.content-menu ul li a:hover {
+    color: white;
+}
+/* ---------------------------------------controlla-------- */
+.content-menu ul li:first-child a::selection{ 
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: #99e22d;
+    display: inline-block;
+}
+/* ---------------------------------------controlla-------- */
 /* content-albums */
 .content-albums {
     margin-top: 10px;
@@ -218,6 +235,29 @@ main .main-content {
 
 .content-albums .circle-album {
     border-radius: 50%;
+}
+   /* albun in hover */
+.content-albums .albums-list li>div {
+    position: relative;
+}
+
+.content-albums .albums-list li>div:hover img{
+    filter: opacity(30%);
+}
+
+.content-albums .albums-list li div>i {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    color: transparent;
+}
+
+.content-albums .albums-list li:hover div>i {
+    color: white;
+    filter: none
 }
 
 /* FOOTER */
