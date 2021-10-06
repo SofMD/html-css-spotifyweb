@@ -187,7 +187,9 @@ main .main-content {
     color: #636363;
 }
 
-
+.content-albums .circle-album {
+    border-radius: 50%;
+}
 
 
 
