@@ -52,7 +52,6 @@ main .aside-bar {
     flex-shrink: 0;
     padding: 20px 0 0 25px;
     overflow-y: auto;
-    display: flex;
     flex-direction: column;
 }
 
@@ -111,6 +110,7 @@ main .aside-bottom a {
 main .aside-bottom  img {
     width: 19px;
 }
+
 main .aside-bottom div img {
     width: 25px;
     background-color: #636363;
@@ -127,11 +127,17 @@ main .main-content {
 
 .content-top-bar {
     position: fixed;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4);
     width: calc(100% - 240px);
     text-align: right;
+    padding: 25px 15px;
 }
 
+.content-top-bar button {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 50px;
+    border-radius: 25px;
+}
 
 
 
