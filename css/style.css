@@ -149,6 +149,12 @@ main .aside-bottom div img {
     border-radius: 50px;
 }
 
+.aside-bar  a span:hover {
+    color: white;
+}
+.aside-bar .aside-playlist ul li a:hover {
+    color: white;
+}
 
 /* main-content */
 main .main-content {
@@ -178,6 +184,7 @@ main .main-content {
 
 .content-menu ul {
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* content-albums */
