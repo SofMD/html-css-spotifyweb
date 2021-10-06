@@ -287,6 +287,14 @@ footer {
     font-size: 20px;
 }
 
+.player-album .underline:hover .subtitle {
+    text-decoration: underline;
+    color: white;
+}
+
+.player-album-simbol i:hover{
+    color: white;
+}
 /* play-controller */
 .player-controller {
     flex-direction: column;
@@ -303,12 +311,17 @@ footer {
     font-size: 25px;
     color: white;
 }
+
 .controller-simbol button:last-child i{
     margin-right: 0;
 }
 
 .controller-simbol .bigger{
     font-size: 40px;
+}
+
+.controller-simbol .bigger:hover {
+    font-size: 45px;
 }
 
 .player-controller .bar {
