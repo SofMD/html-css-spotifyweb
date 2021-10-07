@@ -15,7 +15,9 @@ a {
 #logo-small {
     display: none;
 }
+
 /* UTILITY */
+
 .m-top30 {
     margin-top: 30px;
 }
@@ -30,6 +32,9 @@ a {
 }
 .d-fl {
     display: flex;
+}
+.ps-rv {
+    position: relative;
 }
 .ls-st {  
     list-style: none;
@@ -127,10 +132,6 @@ main .aside-nav a:hover img {
 
 main .aside-nav a:first-child img {
     filter: none;
-}
-
-.aside-nav {
-    position: relative;
 }
 
 .aside-nav .line::before {
@@ -235,10 +236,6 @@ main .main-content {
     flex-wrap: wrap;
 }
 
-.content-menu ul li {
-    position: relative;
-}
-
 .content-menu ul li a:hover {
     color: white;
 }
@@ -276,9 +273,7 @@ main .main-content {
     border-radius: 50%;
 }
    /* albun in hover */
-.content-albums .albums-list li>div {
-    position: relative;
-}
+
 
 .content-albums .albums-list li>div:hover img{
     filter: opacity(30%);
