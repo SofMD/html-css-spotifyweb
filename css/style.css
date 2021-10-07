@@ -11,6 +11,10 @@
 a {
     text-decoration: none;
 }
+
+#logo-small {
+    display: none;
+}
 /* UTILITY */
 .m-top30 {
     margin-top: 30px;
@@ -99,6 +103,15 @@ main .aside-nav a,
 
 main .aside-nav img {
     width: 15%;
+    filter: opacity(60%);
+}
+
+main .aside-nav a:hover img {
+    filter: none;
+}
+
+main .aside-nav a:first-child img {
+    filter: none;
 }
 
 main .aside-nav span, 
@@ -149,11 +162,13 @@ main .aside-bottom div img {
     border-radius: 50px;
 }
 
-.aside-bar  a span:hover {
-    color: white;
-}
+.aside-bar  a span:hover,
 .aside-bar .aside-playlist ul li a:hover {
     color: white;
+}
+
+main .aside-playlist a:hover i {
+    background-color: white;
 }
 
 /* main-content */
@@ -417,5 +432,46 @@ footer {
 }
 
 @media screen and (max-width: 599px) {
+
+    main .aside-bar {
+        width: 60px;
+        padding: 10px 0 0 ;
+    }
+
+    main .main-content {
+        width: calc(100% - 60px);
+    }
+
+    .content-top-bar {
+        width: calc(100% - 60px);
+    }
+
+    .aside-bar .logo img,
+    .aside-nav a>span,
+    .aside-playlist,
+    .aside-bottom a>span,
+    .aside-bottom div>h3  {
+        display: none;
+    }
+
+    #logo-small {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    main .aside-nav {
+        flex-grow: 1;
+    }
+
+    main .aside-nav img,
+    .aside-bar .logo  {
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+    
+
+
+
 
 }
