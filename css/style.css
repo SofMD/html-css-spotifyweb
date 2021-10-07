@@ -165,15 +165,16 @@ main .main-content {
 /* top-bar */
 .content-top-bar {
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     width: calc(100% - 240px);
     text-align: right;
     padding: 25px 15px;
+    z-index: 2;
 }
 
 .content-top-bar button {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 10px 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 35px;
     border-radius: 25px;
     transition: transform 0.3s;
 }
@@ -352,13 +353,27 @@ footer {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1099px) {
 
     .content-albums .albums-list li {
         width: calc(100% / 4 - 15px);
     }
 
-
-
+    .content-menu ul li {
+        margin-top: 30px;
+    }
 
 }
+
+@media screen and (max-width: 699px) {
+
+    .content-albums .albums-list li {
+        width: calc(100% / 2 - 15px);
+    }
+
+    .content-menu ul li {
+        margin-top: 30px;
+    }
+
+}
+
