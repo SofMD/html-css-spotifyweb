@@ -305,6 +305,7 @@ footer {
 .player-album-simbol i:hover{
     color: white;
 }
+
 /* play-controller */
 .player-controller {
     flex-direction: column;
@@ -339,25 +340,30 @@ footer {
 }
 
 .player-controller .bar::before {
-    width: 10%;
+    width: 30%;
 }
+
+
+.progres-bar:hover .bar::before {
+    background-color: #99e22d;
+}
+
 
 /* player-audio */
 .player-audio .progres-bar .bar{
-    margin: 0 15px;
+    margin: 10px 15px;
     width: 100px;
 }
 
 .player-audio .bar::before {
         content: '';
-        width: 20px;
+        width: 30px;
         background-color: #c1c1c1;
         display: inline-block;
         height: 5px;
         position: absolute;
         border-radius: 25px;   
 }
-
 
 /* RESPONSIVE */
 
@@ -394,7 +400,7 @@ footer {
     
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 799px) {
 
     .content-albums .albums-list li {
         width: calc(100% / 2 - 15px);
