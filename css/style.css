@@ -321,7 +321,7 @@ footer {
 }
 
 .controller-simbol .bigger:hover {
-    font-size: 45px;
+    transform: scale(1.2);
 }
 
 .player-controller .bar {
