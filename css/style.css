@@ -363,6 +363,27 @@ footer {
         margin-top: 30px;
     }
 
+    .player-album .player-album-simbol {
+        margin-left: 15px;
+    }
+
+    .controller-simbol button i {
+        margin-right: 30px;
+        font-size: 20px;
+    }
+    
+    .progres-bar>span, .player-album .underline>div{
+        font-size: 12px; 
+    }
+
+    .progres-bar .bar {
+        margin: 0 15px;
+    }
+
+    .player-controller {
+        margin-right: 20px;
+    }
+    
 }
 
 @media screen and (max-width: 699px) {
@@ -375,5 +396,26 @@ footer {
         margin-top: 30px;
     }
 
+    .controller-simbol button i {
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
+    .progres-bar .bar {
+        margin: 0 9px;
+    }
+
+    .player-audio a {
+        margin-right: 8px;
+    }
+
+    .player-audio .progres-bar .bar {
+        width: 50px;
+        margin: 0 8px;
+    }
+
 }
 
+@media screen and (max-width: 599px) {
+
+}
