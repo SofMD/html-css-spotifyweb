@@ -467,10 +467,25 @@ footer {
     .aside-bar .logo  {
         width: 70%;
         margin: 0 auto;
-        
+    }
+
+    main .aside-bottom {
+        display: flex;
+        flex-direction: column;
     }
     
+    main .aside-bottom a,
+    .aside-bottom div  {
+        padding: 0;
+        border-bottom: none;
+        display: inline-block;
+        margin: 0 auto ;
+        margin-bottom: 8px;
+    }
 
+    main .aside-bottom div img {
+        width: 35px;
+    }
 
 
 
